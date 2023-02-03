@@ -22,7 +22,7 @@ export const filterCities = () =>{
     const begins:string[] = [];
     const ends:string[] = [];
 
-    // break json file into two simple array, in order to compare them.
+    // break json file into two simple arrays, in order to compare them.
     trips.map((ticket)=>{
       begins.push(ticket.source);
       ends.push(ticket.destination);
